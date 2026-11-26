@@ -221,3 +221,76 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ==================================
+# MACHINE LEARNING
+# ==================================
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.keras
+
+# ML experiment outputs
+runs/
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+
+# Hugging Face and model caches
+huggingface_cache/
+
+# ==================================
+# DATASETS AND AUDIO
+# ==================================
+
+# Downloaded datasets
+datasets/
+data/raw/
+data/external/
+
+# Processed data
+data/processed/
+processed_data/
+
+# Temporary audio uploads
+uploads/
+temp_audio/
+test_audio/
+
+# ==================================
+# GENERATED FILES
+# ==================================
+
+# Logs
+logs/
+
+# Generated outputs
+outputs/
+results/
+reports/generated/
+
+# Temporary folders
+temp/
